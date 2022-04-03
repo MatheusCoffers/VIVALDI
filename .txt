@@ -1,0 +1,66 @@
+departamentos
+    
+    comunicação
+        aluno1 : Suzanna Amancio
+        aluno2 : Janaína lobatiano
+        aluno3 : Camilly Gomes
+        aluno4 : Luiz Henrique
+        aluno5 : Mayara C Longuinho
+        aluno6 : Kayky scomparin
+
+    responsabilidade
+        aluno1 : Julia Moutinho
+        aluno2 : Rafaela Santana
+        aluno3 : Rayza Santos
+        aluno4 : Eduarda Oliveira
+        aluno5 : Evelyn Beatriz
+        aluno6 : Lara Umbelino Alves
+        aluno7 : TT coelho
+    
+    administração
+        aluno1 : Lavínia Correia
+        aluno2 : Maria Eduarda Oliveira
+        aluno3 : Fernanda Pinheiro
+        aluno4 : Hadassa B. Rodrigues
+        aluno5 : Alana Gomes
+        aluno6 : Juliana Silva
+
+    treinamento
+        aluno1 : Gabriella Gomes
+        aluno2 : Letícia Pereira da Mata
+        aluno3 : Ana Clara
+        aluno4 : Maria Eduarda Ignacio
+        aluno5 : Richard Luiz
+        aluno6 : Kaiki Correia
+
+    logistica
+        aluno1 : Gabriella Pasquarelli
+        aluno2 : Malu Costa
+        aluno3 : Sabrina Santos
+        aluno4 : Letícia Souza
+        aluno5 : Beatriz Cerqueira
+        aluno6 : Kaiky de Souza
+
+    qualidade
+        aluno1 : Geovana Souza
+        aluno2 : Lorena Martin
+        aluno3 : Sarah Stephanie
+        aluno4 : Beatriz Navarro
+        aluno5 : Karen Nogueira
+        aluno6 : Marlla Paci
+
+    inovação
+        aluno1 : Lucas Lo Turco
+        aluno2 : Matheus Coffers
+        aluno3 : Karol Brito
+        aluno4 : Stefany Cardoso
+        aluno5 : Isabel Almeida lima
+
+    marketing
+        aluno1 : Caroline Ayumi
+        aluno2 : Priscilla Hillary
+        aluno3 : Maria Clara
+        aluno4 : Laisa Tavares
+        aluno5 : Joyce Borges
+        aluno6 : Thamires Nascimento
+

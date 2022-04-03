@@ -40,10 +40,10 @@ header{
     list-style-type: none;
     display: flex;
 }
-
+/*-------------------------------------------------*/
 .item_navbar_header{
     color: #FDF65E;
-    font-size: clamp(1.4rem,1.5vw,4rem);
+    font-size: clamp(1.7rem,2vw,4rem);
     margin-left: 30px;
     padding: 10px;
     cursor: pointer;
@@ -79,10 +79,16 @@ header{
         padding: 3px;
     }
 
-    .navbar_header ul{
+    .navbar_header{
+        width: 100%;
+        
+    }
 
-        width: 265px;
-        margin: 10px auto;
+    .navbar_header ul{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 10px;
     }
 
  
