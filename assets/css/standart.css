@@ -1,0 +1,135 @@
+:root{
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #012B3B;
+    text-decoration: none;
+}
+
+body{
+    background-color: #E9FF8F;
+}
+
+html, body{
+    height: 100%;
+}
+
+/*Estilização do header.................................................................*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color: #012B3B;
+}
+
+.logo_header img{
+    width: 6rem;
+}
+
+.navbar_header > ul{
+    margin-top: 5px;
+    list-style-type: none;
+    display: flex;
+}
+
+.item_navbar_header{
+    color: #FDF65E;
+    font-size: clamp(1.4rem,1.5vw,4rem);
+    margin-left: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+@media(min-width: 600px){
+    .item_navbar_header:hover{
+        background-color: #fdf55e;
+        color: #012B3B;
+        font-weight: bold;
+        border-radius: 7px;
+    }
+}
+
+/*responsovidade do header*/
+@media(max-width: 750px){
+    .item_navbar_header{
+        margin-left: 5px;
+    }
+}
+
+@media(max-width: 585px){
+
+
+    header{
+        padding: 20px 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .item_navbar_header{
+        margin-left: 5px;
+        padding: 3px;
+    }
+
+    .navbar_header ul{
+
+        width: 265px;
+        margin: 10px auto;
+    }
+
+ 
+
+}
+
+/*Estilização do footer.................................................................*/
+/*Essa estilização precisa ser modificada, tirando o height da mesma assim que for ultilizada em uma pagina nova*/
+.section_padding{
+    padding: 0 60px;
+
+}
+
+
+/*Estilização do footer.................................................................*/
+footer{
+    background-color: #012B3B;
+    padding: 30px 60px;
+}
+
+.contato_footer>h1{
+    color: #FDF65E;
+}
+
+.contato_footer li{
+    margin-top: 5px;
+}
+
+
+.contato_footer a{
+    font-size: 1.4rem;
+    color: #FDF65E;
+
+}
+
+/*Responsividade do footer*/
+@media(max-width: 585px){
+
+    .section_padding{
+        padding: 0 20px;
+
+    }
+
+    footer{
+        padding: 20px 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
