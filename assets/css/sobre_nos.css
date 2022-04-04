@@ -86,6 +86,9 @@
     }
 }
 @media(max-width: 760px){
+    .section_departamento{
+        margin-top: 10px
+    }
     .foto_texto_departamento{
         flex-wrap: wrap;
         text-align: center;
