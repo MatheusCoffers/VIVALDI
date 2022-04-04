@@ -1,0 +1,199 @@
+:root{
+    font-size: 10px;
+}
+
+/*estilização da div departamento*/
+
+.departamento{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #0000005b;
+    display: none;
+}
+
+.section_departamento{
+    width: 70%;
+    padding-bottom: 1px;
+    background-color: #4CAF50;
+    margin: calc(50vh - 225px) auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.70), 0 6px 20px 0 rgba(0, 0, 0, 0.70);
+}
+
+.section_departamento h1{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+
+.texto_departamento span{
+    font-size: 2rem;
+    color: white;
+    background-color: #012B3B;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section_departamento span#vermelho{
+    background-color: rgb(202, 25, 25);
+}
+
+.foto_texto_departamento{
+    padding-top: 20px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.foto_texto_departamento span:hover{
+    background-color: #145068;
+}
+
+.section_departamento span#vermelho:hover{
+    background-color: rgb(226, 84, 84);
+}
+
+.foto_texto_departamento img{
+    object-fit: cover;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15
+    ), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    margin-right: 40px;
+}
+
+.foto_texto_departamento p{
+    height: 220px;
+    overflow-y: scroll;
+    color: white;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+/*responsividade dos departamentos*/
+@media(max-width: 1150px){
+    .foto_texto_departamento img{
+        width: 300px;
+        height: 250px;
+    }
+}
+@media(max-width: 940px){
+    .foto_texto_departamento img{
+        width: 250px;
+        height: 200px;
+    }
+}
+@media(max-width: 760px){
+    .foto_texto_departamento{
+        flex-wrap: wrap;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .foto_texto_departamento img{
+        width: 220px;
+        height: 160px;
+        margin: 0 auto;
+    }
+    .foto_texto_departamento p{
+        margin-top: 10px;
+    }
+    .section_departamento h1{
+        padding-top: 5px;
+    }
+}
+
+
+/*estilização da section1*/
+.section1{
+    margin-bottom: 60px;
+}
+
+.section1>h1{
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 50px;
+}
+
+.cards_section1{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.card{
+    width: 270px;
+    background-color: #4CAF50;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.20), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.card img{
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h1{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+/*responsividade da página*/
+
+@media(max-width: 1250px){
+    .card{
+        width: 230px;
+    }
+    .card img{
+        height: 170px;
+    }
+}
+
+@media(max-width: 1080px){
+    .card{
+        width: 195px;
+    }
+    .card img{
+        height: 140px;
+    }
+}
+
+@media(max-width: 920px){
+    .card{
+        width: 160px;
+    }
+    .card img{
+        height: 120px;
+    }
+    .card h1{
+        padding-bottom: 10px;
+    }
+}
+
+@media(max-width: 800px){
+    .section1>h1{
+        padding-top: 20px;
+    }
+    .cards_section1{
+        margin-top: 40px;
+    }
+    .card{
+        width: 300px;
+    }
+    .card img{
+        height: 250px;
+    }
+    .card h1{
+        padding-bottom: 30px;
+    }
+}

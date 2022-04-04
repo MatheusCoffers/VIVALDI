@@ -78,5 +78,6 @@ function trocarReportagem(){
     reportagem_atual.p2.innerText = reportagens[numReportagem-1].p2
     reportagem_atual.p3.innerText = reportagens[numReportagem-1].p3
     reportagem_atual.img.src = reportagens[numReportagem-1].img
+    window.scrollTo(0, 0);
 }
 

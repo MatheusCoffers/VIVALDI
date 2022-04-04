@@ -5,10 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/standart.css">
+    <link rel="stylesheet" href="../css/sobre_nos.css">
     <title>Sobre Nós (VIVALDI)</title>
 </head>
 <body>
     
+    <div class="departamento" id="departamento">
+        <div class="section_departamento section_padding">
+
+
+            <h1 id="titulo_departamento">Administração</h1>
+            <div class="foto_texto_departamento">
+                <img src="../images/departamentos/administracao/foto_grupo.jpg" id="img_departamento">
+                <div class="texto_departamento">
+                    <p id="texto_departamento">
+                        O setor administrativo é uma ampla parte da empresa responsável pelo planejamento estratégico e pela gestão de pessoal e atividades que fazem o negócio acontecer.<br>
+                        A área administrativa pode acumular funções de outras áreas que se tornam parte deste setor, como os recursos humanos ou as finanças.<br>
+                        A administração é uma área abrangente que atua como a liderança de setores da empresa, como a produção, compras, marketing, comercial ou logística, e a interação entre estes.
+                    </p>
+                    <span id="vermelho" onclick="departDisplayNone()">Fechar</span>
+                </div>
+            </div>
+            
+            
+        </div>
+
+        
+
+        
+    </div>
+
     <!--header padrão de todas as páginas da aplicação-->
     <header>
 
@@ -26,9 +52,55 @@
         </div><!--navbar_header-->
     </header>
 
-    <div class="page">
-        <h1>Sobre Nós</h1>
-    </div><!--page-->
+
+    <section class="section1 section_padding">
+        <h1>Departamentos</h1>
+
+        <div class="cards_section1">
+
+            <div class="card" onclick="departDisplayInitial(), departAtualAdm(), trocarDepartamento()">
+                <img src="../images/departamentos/administracao/foto_grupo.jpg" alt="grupo">
+                <h1>Administração</h1>
+            </div>
+
+            <div class="card" onclick="departDisplayInitial(), departAtualCom(), trocarDepartamento()">
+                <img src="../images/departamentos/comunicacao/foto_grupo.jpg" alt="grupo">
+                <h1>Comunicação</h1>
+            </div>
+
+            <div class="card" onclick="departDisplayInitial(), departAtualIno(), trocarDepartamento()">
+                <img src="../images/departamentos/inovacao/foto_grupo.jpg" alt="grupo">
+                <h1>Inovação e Tecnologia</h1>
+            </div>
+
+            <div class="card" onclick="departDisplayInitial(), departAtualLog(), trocarDepartamento()">
+                <img src="../images/departamentos/logistica/foto_grupo.jpg" alt="grupo">
+                <h1>Logística</h1>
+            </div>
+
+            <div class="card" onclick="departDisplayInitial(), departAtualMar(), trocarDepartamento()">
+                <img src="../images/departamentos/marketing/foto_grupo.jpg" alt="grupo">
+                <h1>Marketing</h1>
+            </div>
+
+            <div class="card" onclick="departDisplayInitial(), departAtualQua(), trocarDepartamento()">
+                <img src="../images/departamentos/qualidade/foto_grupo.jpg" alt="grupo">
+                <h1>Qualidade</h1>
+            </div>
+
+            <div class="card" onclick="departDisplayInitial(), departAtualRes(), trocarDepartamento()">
+                <img src="../images/departamentos/responsabilidade/foto_grupo.jpg" alt="grupo">
+                <h1>Responsabilidade Social</h1>
+            </div>
+
+            <div class="card" onclick="departDisplayInitial(), departAtualTre(), trocarDepartamento()">
+                <img src="../images/departamentos/treinamento/foto_grupo.jpg" alt="grupo">
+                <h1>Treinamento</h1>
+            </div>
+            
+        </div>
+    </section><!--section1-->
+
 
     <!--header padrão de todas as páginas da aplicação-->
     <footer>
@@ -38,10 +110,10 @@
             <ul>
                 <li><a href="mailto:vivaldisustentabilidade@gmail.com">E-mail: vivaldisustentabilidade@gmail.com</a></li>
                 <li><a href="https://www.instagram.com/vivaldi_sustentabilidade/"   target="_blank">Instagram: @vivaldi_sustentabilidade</a></li>
-                <li><a href="">Youtube: </a></li>
             </ul>
         </div>
     </footer>
-
+    
+    <script src="../scripts/sobre_nos.js"></script>
 </body>
 </html>

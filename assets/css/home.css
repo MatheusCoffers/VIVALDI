@@ -136,22 +136,26 @@ p{
     }
 
     /*responsividade da section 2*/
+    .section2{
+        flex-direction: column-reverse;
+    }
     .img_section2{
-        margin-top: 40px;
+        margin-bottom: 40px;
         width: 100%;
         text-align: center;
     }
 
     .img_section2 img{
         width: 100%;
-        margin: 25px 0;
+        height: 250px;
+        margin: 15px 0;
         border-radius: 10px;
     }
 
     .texto_section2{
         padding: 0;
         text-align: center;
-        padding-bottom: 40px;
+        padding-top: 40px;
     }
     /*responsividade da section3*/
 
@@ -176,6 +180,7 @@ p{
 
     .img_section4 img{
         width: 100%;
+        height: 250px;
         margin: 25px 0;
         border-radius: 10px;
         margin-bottom: 50px;
