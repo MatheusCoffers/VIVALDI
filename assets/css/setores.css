@@ -113,7 +113,7 @@
     margin-bottom: 60px;
 }
 
-.section1>h1{
+.section1>h1,.section2>h1{
     text-align: center;
     font-size: 4rem;
     padding-top: 50px;
@@ -198,5 +198,60 @@
     }
     .card h1{
         padding-bottom: 30px;
+    }
+}
+
+/*estilizacao da setion2*/
+
+.section2{
+    background-color: #4CAF50;
+}
+
+.section2 h1{
+    color: white;
+}
+
+.eventos{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 70px;
+}
+
+.evento{
+    width:40%;
+    margin-top: 10px;
+    text-align: center;
+    padding: 30px;
+}
+
+.evento:hover{
+    background-color: #145068;
+    border-radius: 10px;
+}
+
+.evento h2{
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.evento p{
+    font-size: 2rem;
+    color: white;
+
+}
+
+@media(max-width: 860px){
+    .evento{
+        width: 500px;
+    }
+}
+
+@media(max-width: 860px){
+    .evento{
+        width: 300px;
     }
 }
